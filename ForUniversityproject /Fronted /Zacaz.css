@@ -7,78 +7,121 @@ body {
 header {
 	width: 100%;
 	background: #052da6;
-	height: 120px; 
+	height: 80px; 
 }
 .head {
-	width: 100%;
-	height: 120px;
+	width: 1200px;
+	height: 80px;
 	margin: 0px auto;
+	line-height: 50px;
+	vertical-align: middle;
 }
+
 .titlewww {
-	display: inline-block;
-	margin-top: 38px;
-	font-size: 47px;
+	margin-top: 10px;
+	margin-left: 40px;
+	width: auto;
+    height: 50px;
+}
+
+.texth1 {
+	position: absolute;
+	top: 20px; 
+    height: 50px; 
+    margin-left: 300px;
+	font-size: 18px;
 	color: white;
 	font-family: Arial;
 }
-.texth {
-	display: inline-block;
-	margin-left: 40px;
-	font-size: 35px;
+.texth2 {
+	position: absolute;
+	top: 20px; 
+    height: 50px; 
+    margin-left: 450px;
+	font-size: 18px;
+	color: white;
+	font-family: Arial;
+}
+.texth3 {
+	position: absolute;
+	top: 20px; 
+    height: 50px; 
+    margin-left: 640px;
+	font-size: 18px;
 	color: white;
 	font-family: Arial;
 }
 .bell {
 	display: inline-block;
-	width: 90px;
-	height: 90px;
+	width: 50px;
+	height: 50px;
 	float:right;
-	margin-top: 5px;
+	border-radius: 50px;
+	margin-top: 15px;
+	margin-right: 40px;
+
 }
 .photo {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	float:right;
+	width: 50px;
+	height: 50px;
+	float: right;
 	border-radius: 50px;
+	margin-top: 15px;
+	margin-right: 50px;
 }
 
-
 .body {
-	width: 1200px;
+	width: 900px;
 	margin: 50px auto;
-	padding: 50px; 
+	padding: 40px; 
 	border: 5px #052da6 solid;
 }
 .title {
-	font-size: 47px;
+	font-size: 28px;
 	color: #052da6;	
 }
 .block1 {
-	font-size: 35px;
+	font-size: 20px;
 	margin-top: 10px;
 }
 .block2 {
-	font-size: 35px;
+	font-size: 20px;
 	margin-top: 10px;
 }
 .block3{
-	font-size: 35px;	
+	font-size: 20px;	
 	margin-top: 10px;
 }
-textarea {
-	font-size: 20px; 
+.block1 textarea {
+	font-size: 18px; 
 	padding: 15px;
 	color: grey;
+	resize: none;
+	width: 700px;
+	height: 12px;
+}
+.block2 textarea {
+	font-size: 18px; 
+	padding: 15px;
+	color: grey;
+	resize: none;
+	width: 700px;
+	height: 60px;
+}
+.block3 textarea {
+	font-size: 18px; 
+	padding: 15px;
+	color: grey;
+	resize: none;
+	width: 200px;
+	height: 12px;
 }
 #button {
-	width: 400px;
-	height: 70px;
-	margin-top: 30px;
-	font-size: 47px;
+	width: 300px;
+	height: 60px;
+	margin-top: 20px;
+	font-size: 28px;
 	color: white;
 	background-color: #0468bf;
-}
-#JS{
-	display: inline-block;
 }
