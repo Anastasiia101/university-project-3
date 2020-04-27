@@ -8,6 +8,7 @@ body {
 	height: 100%;
 	background: white;
 	position: absolute;
+	font-family: Arial;
 }
 header {
 	width: 100%;
@@ -36,7 +37,6 @@ header {
     margin-left: 300px;
 	font-size: 18px;
 	color: white;
-	font-family: Arial;
 }
 .texth2 {
 	position: absolute;
@@ -45,7 +45,6 @@ header {
     margin-left: 450px;
 	font-size: 18px;
 	color: white;
-	font-family: Arial;
 }
 .texth3 {
 	position: absolute;
@@ -54,7 +53,6 @@ header {
     margin-left: 640px;
 	font-size: 18px;
 	color: white;
-	font-family: Arial;
 }
 .bell {
 	display: inline-block;
@@ -129,4 +127,5 @@ header {
 	font-size: 28px;
 	color: white;
 	background-color: #0468bf;
+	font-family: Arial;
 }
