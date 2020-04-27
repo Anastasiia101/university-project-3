@@ -11,7 +11,7 @@ body {
 }
 header {
 	width: 100%;
-	background: #052da6;
+	background: #294079;
 	height: 80px; 
 }
 .head {
@@ -80,7 +80,7 @@ header {
 	width: 900px;
 	margin: 50px auto;
 	padding: 40px; 
-	border: 5px #052da6 solid;
+	border: 5px #294079 solid;
 }
 .title {
 	font-size: 28px;
